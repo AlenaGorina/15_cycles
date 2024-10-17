@@ -1,0 +1,22 @@
+body {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../image/utrennyaya_panorama_mirovykh_novostey_za_15_marta.webp);
+}
+
+.title {
+  padding: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f10707;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
