@@ -11,7 +11,7 @@ for (let i = 0; i < cities.length; i++) {
 }
 
 // Создаём список для отображения информации о городах
-const weatherList = document.createElement('ul');
+const townList = document.createElement('ul');
 
 // Переменные для нахождения максимальной и минимальной температуры
 let maxTemperature = -Infinity;
@@ -24,7 +24,7 @@ for (let i = 0; i < cities.length; i++) {
     listItem.textContent = `${cities[i]}: ${temperatures[i]}°C`;
     
     // Добавляем элемент в список
-    weatherList.appendChild(listItem);
+    townList.appendChild(listItem);
     
     // Проверяем на максимальную и минимальную температуру
     if (temperatures[i] > maxTemperature) {
@@ -36,7 +36,7 @@ for (let i = 0; i < cities.length; i++) {
 }
 
 // Добавляем список в документ
-document.body.appendChild(weatherList);
+document.body.appendChild(townList);
 
 // Выводим максимальную и минимальную температуру
 const maxTempItem = document.createElement('p');
